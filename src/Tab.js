@@ -115,10 +115,10 @@ render()
     return (
         <div {...this.props} className="tab">
             <ul className="title-ul">
-                <li className="active"><a href="#">新闻</a></li>
-                <li><a href="#">娱乐</a></li>
-                <li><a href="#">电影</a></li>
-                <li><a href="#">科技</a></li>
+                <li className="active"><a href="#">{this.props.title[0]}</a></li>
+                <li><a href="#">{this.props.title[1]}</a></li>
+                <li><a href="#">{this.props.title[2]}</a></li>
+                <li><a href="#">{this.props.title[3]}</a></li>
             </ul>
             <div className="content">
                 <div className="content-item current"><img src="image/b.jpg"/></div>
