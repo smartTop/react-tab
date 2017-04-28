@@ -18,7 +18,9 @@ export default class Tab extends Component {
         triggerType: "click",  //用来定义鼠标的触发类型，是click还是 mouseover
         effect: "default",         //用来定义内容切换效果,是直接切换还是淡入淡出效果
         invoke: 1,                 //默认显示第几个tab
-        auto: false                //用来定义tab是否自动切换，当指定了时间间隔，就表示自动切换，且切换时间就是指定时间
+        auto: false,                //用来定义tab是否自动切换，当指定了时间间隔，就表示自动切换，且切换时间就是指定时间
+        title:['新闻','娱乐','电影','科技'] //tab 标签
+
     }
 
     componentDidMount() {
