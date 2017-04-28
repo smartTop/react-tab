@@ -1,0 +1,51 @@
+.tab{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.title-ul{
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.title-ul li {
+    background: #767676;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px 3px 0px 0px;
+    flex: 1;
+    margin-right: 5px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.content {
+    background: white;
+    width: 295px;
+    height: 295px;
+}
+img{
+    width: 295px;
+    height: 295px;
+}
+
+.content-item{
+    display: none;
+}
+.current{
+    display: block;
+}
+.title-ul li.active{
+    background: white;
+
+}
+.title-ul li.active a{
+    color: #777;
+}
+
