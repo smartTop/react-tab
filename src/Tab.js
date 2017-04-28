@@ -34,6 +34,10 @@ export default class Tab extends Component {
             this.handleAutoPaly();
             this.handleClearTimer();
         }
+        //指定初始的页面
+        if(this.props.invoke>1){
+            this.handleInvoke(this.titles.eq(this.props.invoke-1));
+        }
     }
 
     //鼠标点击事件
